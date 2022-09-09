@@ -1,0 +1,4 @@
+*.json
+.prettierrc
+*.d.ts
+vite.*
