@@ -1,5 +1,13 @@
+import { Box } from '@chakra-ui/react'
+import { Card } from './components/Card'
+import { Main } from './components/Main'
+
 function App() {
-  return <h1>Hello</h1>
+  return (
+    <Main>
+      <Card />
+    </Main>
+  )
 }
 
 export default App
