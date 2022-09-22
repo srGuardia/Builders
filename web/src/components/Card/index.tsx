@@ -81,12 +81,12 @@ export const Card = ({ data, handleRecharge }: CardProps) => {
 
           <HStack justifyContent='end'>
             <Text color='gray'>Max:</Text>
-            <Text color='gray'>{data?.main.temp_max}</Text>
+            <Text color='gray'>{data?.main.temp_max}&nbsp;ºC</Text>
           </HStack>
 
           <HStack justifyContent='end'>
             <Text color='gray'>Min:</Text>
-            <Text color='gray'>{data?.main.temp_min}</Text>
+            <Text color='gray'>{data?.main.temp_min}&nbsp;ºC</Text>
           </HStack>
 
           <HStack justifyContent='end'>
