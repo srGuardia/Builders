@@ -12,6 +12,7 @@ export const Main = ({ children }: MainProps) => (
     bgColor='black'
     alignItems='center'
     justifyContent='center'
+    position='relative'
   >
     {children}
   </Flex>
