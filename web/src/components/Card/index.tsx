@@ -42,7 +42,7 @@ export const Card = ({ data, handleRecharge }: CardProps) => {
 
       <VStack flex={2} justifyContent='center' spacing={0}>
         <Heading fontFamily='heading' color='white' fontSize='6xl'>
-          {data?.main.temp}ºC
+          {data?.main.temp}&nbsp;ºC
         </Heading>
 
         <Heading fontFamily='heading' color='gray' fontSize='medium'>
